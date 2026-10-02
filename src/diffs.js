@@ -27,3 +27,8 @@ export function jsonLdTemplate(url) {
 
 export const canonicalTag = (url) => `<link rel="canonical" href="${url}">\n`;
 export const descriptionTag = () => `<meta name="description" content="REPLACE: 50 to 160 characters that say what the page offers and for whom">\n`;
+
+// Content Signals state the owner's choice; the line below allows search and
+// AI answers and refuses training, the common choice. Change any value.
+export const contentSignalsPatch = () => "# Add under User-agent: * in robots.txt (contentsignals.org). Change any value to match your choice.\nContent-Signal: search=yes, ai-input=yes, ai-train=no\n";
+export const linkHeaderNote = (origin) => `# Send this header with your home page response (RFC 8288):\nLink: <${origin}/llms.txt>; rel="describedby"; type="text/plain"\n`;

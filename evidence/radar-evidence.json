@@ -1,0 +1,60 @@
+{
+  "source": "Cloudflare Radar",
+  "source_url": "https://radar.cloudflare.com/ai-insights",
+  "generated_at": "2026-10-02T02:11:08Z",
+  "agent_readiness": {
+    "date": "2026-09-28",
+    "domains": 108684,
+    "checks": {
+      "robotsTxt": 89810,
+      "sitemap": 74392,
+      "linkHeaders": 10542,
+      "markdownNegotiation": 3639,
+      "robotsTxtAiRules": 86149,
+      "contentSignals": 2328,
+      "apiCatalog": 625,
+      "oauthProtectedResource": 4718,
+      "mcpServerCard": 504,
+      "agentSkills": 524,
+      "ucp": 5280,
+      "acp": 19,
+      "x402": 6
+    },
+    "ecommerce": {
+      "domains": 18592,
+      "checks": {
+        "robotsTxt": 17118,
+        "sitemap": 14541,
+        "linkHeaders": 1393,
+        "markdownNegotiation": 707,
+        "robotsTxtAiRules": 16840,
+        "contentSignals": 396,
+        "apiCatalog": 71,
+        "oauthProtectedResource": 3670,
+        "mcpServerCard": 55,
+        "agentSkills": 56,
+        "ucp": 4080,
+        "acp": 7,
+        "x402": 2
+      }
+    }
+  },
+  "ai_crawler_requests": {
+    "period": {
+      "startTime": "2026-09-04T02:00:00Z",
+      "endTime": "2026-10-02T02:00:00Z"
+    },
+    "share_percent": {
+      "Googlebot": 24.2,
+      "Meta-ExternalAgent": 12.7,
+      "ClaudeBot": 12.1,
+      "Applebot": 8.6,
+      "Bingbot": 7.4,
+      "Amazonbot": 6.2,
+      "GPTBot": 6.2,
+      "OAI-SearchBot": 3.6,
+      "Bytespider": 3.3,
+      "other": 15.6
+    }
+  }
+}

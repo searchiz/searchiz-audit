@@ -5,9 +5,9 @@ Deterministic checks, ready-made fixes, and, for every check, how the pages
 AI answers actually cite do on it.
 
 ```sh
-npx github:searchiz/searchiz-audit example.com
-npx github:searchiz/searchiz-audit example.com/pricing --format json --out audit.json --diffs ./fixes
-npx github:searchiz/searchiz-audit shop.example.com --profile store
+npx searchiz-audit example.com
+npx searchiz-audit example.com/pricing --format json --out audit.json --diffs ./fixes
+npx searchiz-audit shop.example.com --profile store
 ```
 
 No account and no telemetry: the only requests go to the site you name.
